@@ -1,5 +1,5 @@
 import React, { PureComponent, Fragment } from "react";
-import "./assets/scss/base.css";
+import "@/assets/scss/base.css";
 
 import { HashRouter, Route } from "react-router-dom";
 
