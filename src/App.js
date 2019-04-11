@@ -8,7 +8,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 import Loadable from "react-loadable";
-/* 需要拆分路由*/
+
 const MyLoadingComponent = props => {
   if (props.isLoading) {
       return <div>Loading...</div>
